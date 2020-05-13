@@ -3,3 +3,7 @@ services:
   app:
     build: .
     working_dir: /code
+  speccy:
+    image: wework/speccy
+    volumes:
+      - ./openapi:/openapi
