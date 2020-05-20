@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'committee'
 gem 'faker'
 gem 'oj'
 gem 'puma'
